@@ -6,7 +6,7 @@
 <title>Privacy Policy & Terms — Altaf Tech</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -29,7 +29,7 @@ nav{
 }
 .logo{display:flex;align-items:center;gap:.6rem;text-decoration:none}
 .logo-img{width:36px;height:36px;object-fit:contain}
-.logo-txt{font-family:'Playfair Display',serif;font-weight:800;font-size:1.1rem;color:var(--white)}
+.logo-txt{font-family:'DM Sans',sans-serif;font-weight:800;font-size:1.1rem;color:var(--white)}
 .logo-txt span{background:linear-gradient(135deg,#FF6B00,#FFBA00);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 
 /* HERO */
@@ -48,7 +48,7 @@ nav{
 
 .hero-title-block{margin-bottom:1.8rem}
 .hero-title-block .line1{
-  font-family:'Playfair Display',serif;
+  font-family:'DM Sans',sans-serif;
   font-size:clamp(3.2rem,7vw,6.5rem);
   font-weight:900;
   line-height:1;
@@ -57,7 +57,7 @@ nav{
   display:block;
 }
 .hero-title-block .line2{
-  font-family:'Playfair Display',serif;
+  font-family:'DM Sans',sans-serif;
   font-size:clamp(3.2rem,7vw,6.5rem);
   font-weight:700;
   font-style:italic;
@@ -106,7 +106,7 @@ nav{
 .tab-btn{
   padding:.9rem 2rem;
   background:none;border:none;
-  font-family:'Playfair Display',serif;
+  font-family:'DM Sans',sans-serif;
   font-size:.88rem;font-weight:700;
   color:var(--slate);cursor:pointer;
   position:relative;transition:color .2s;
@@ -160,12 +160,12 @@ nav{
 .section-num{
   width:28px;height:28px;border-radius:8px;flex-shrink:0;
   background:linear-gradient(135deg,#FF6B00,#FFBA00);
-  color:#fff;font-family:'Playfair Display',serif;font-weight:800;font-size:.75rem;
+  color:#fff;font-family:'DM Sans',sans-serif;font-weight:800;font-size:.75rem;
   display:flex;align-items:center;justify-content:center;margin-top:.1rem;
 }
 .section-header-text{flex:1}
 .section-title-text{
-  font-family:'Playfair Display',serif;font-weight:700;font-size:1rem;
+  font-family:'DM Sans',sans-serif;font-weight:700;font-size:1rem;
   color:var(--white);margin-bottom:.15rem;
 }
 .section-preview{font-size:.78rem;color:var(--slate);line-height:1.4}
@@ -229,6 +229,124 @@ footer{
   .policy-content{padding:2.5rem 5% 5rem}
   .meta-bar{gap:1rem}
 }
+
+
+
+/* — Playfair: any heading/title — */
+h1,h2,h3,
+.hero-title,
+.sec-title, .section-title,
+.app-name, .app-hero-name,
+.page-title,
+.feat-title, .feat-card-title,
+.cta-box h2, .cta-bar-txt h3,
+.step-title,
+.about-wrap h2,
+.pol-htitle,
+.section-title-text,
+.hero-title-block .line1,
+.hero-title-block .line2
+{
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* — DM Sans: UI chrome — */
+nav, .logo-txt, .nav-links, .nav-links a,
+.hamburger,
+.btn-pr, .btn-gh,
+.badge, .app-card-badge,
+.hero-eyebrow, .kicker, .sec-label, .section-label,
+.tab-btn,
+.stat-num, .stat-label,
+.app-card-cat, .app-cat, .app-card-cta,
+.back-link, .nav-back, .ft-back, .ft-links, .ft-links a,
+.about-pill, .pill, .tech-pill,
+.app-card-name,
+.pol-hsub,
+.meta-item, .meta-strip,
+.policy-meta,
+.hero-badge,
+.hero-kicker,
+footer, .ft-copy,
+.feat-cat, .feat-card-cat,
+.app-card-footer, .app-card-badge,
+.android-pill, .android-badge,
+.about-intro-text
+{
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+/* — Inter: body text — */
+body,
+p, li,
+.hero-desc, .app-desc, .app-short-desc, .app-hero-short,
+.sec-sub, .section-sub,
+.app-card-desc,
+.about-body p, .about-text p, .long-desc p,
+.faq-a,
+.pol-body p, .pol-body li,
+.policy-text p, .policy-text li,
+.policy-intro,
+.cta-box p, .cta-bar-txt p,
+.policy-card p, .policy-card li,
+.page-desc, .page-sub
+{
+  font-family: 'Inter', sans-serif !important;
+}
+
+
+/* ═══════════════════════════════════════
+   TYPOGRAPHY SYSTEM
+   DM Sans  : all headings, titles, UI
+   Inter    : all body text
+═══════════════════════════════════════ */
+
+h1,h2,h3,
+.hero-title,
+.sec-title, .section-title,
+.app-name, .app-hero-name,
+.page-title,
+.feat-title, .feat-card-title,
+.cta-box h2, .cta-bar-txt h3,
+.step-title,
+.pol-htitle,
+.section-title-text,
+.hero-title-block .line1,
+.hero-title-block .line2,
+nav, .logo-txt, .nav-links a,
+.btn-pr, .btn-gh,
+.badge, .app-card-badge,
+.hero-eyebrow, .kicker, .sec-label,
+.tab-btn,
+.stat-num, .stat-label,
+.app-card-cat, .app-cat, .app-card-cta,
+.back-link, .nav-back, .ft-links a,
+.about-pill, .pill, .tech-pill,
+.app-card-name,
+.pol-hsub,
+.meta-item, .meta-strip,
+.hero-badge, .hero-kicker,
+footer, .ft-copy,
+.android-pill, .android-badge
+{
+  font-family: 'DM Sans', sans-serif !important;
+}
+
+body, p, li,
+.hero-desc, .app-desc, .app-short-desc,
+.sec-sub,
+.app-card-desc,
+.about-body p, .about-text p, .long-desc p,
+.faq-a,
+.pol-body p, .pol-body li,
+.policy-intro,
+.cta-box p, .cta-bar-txt p,
+.page-desc, .page-sub,
+.about-intro-text
+{
+  font-family: 'Inter', sans-serif !important;
+}
+
 </style>
 </head>
 <body>
